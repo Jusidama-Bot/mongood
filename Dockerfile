@@ -8,7 +8,6 @@ COPY tsconfig.json .
 COPY public ./public
 COPY src ./src
 RUN yarn build
-RUN yarn export
 
 FROM golang:alpine AS golang-builder
 RUN go env -w GO111MODULE=on
