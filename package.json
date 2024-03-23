@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/renzholy/mongood#readme",
   "dependencies": {
-    "@fluentui/react": "8.101.1",
+    "@fluentui/react": "8.117.0",
     "@monaco-editor/react": "4.4.6",
     "@reduxjs/toolkit": "1.9.0",
     "bson": "4.7.0",
