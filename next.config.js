@@ -1,8 +1,8 @@
 module.exports = {
+  output: 'export',
   rewrites() {
     return [
       {
-        output: 'export',
         source: '/api/:path*',
         destination: 'http://localhost:3000/api/:path*',
       },
